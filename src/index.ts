@@ -1,8 +1,8 @@
-import "dotenv/config"
-import Setup from "./Setup"
+import 'dotenv/config';
+import Setup from './Setup';
 
-const app = new Setup()
+const app = new Setup();
 
-app.boot()
+app.boot();
 
-export default app
+export default app;

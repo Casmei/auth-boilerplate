@@ -8,7 +8,7 @@ class Server {
     this.initServer()
    }
 
-   private initServer () {
+    private initServer () {
         this.app.listen(expressConfig.port, () => {
             console.log(`Server is running... [PORT ${expressConfig.port}]`)
         })
