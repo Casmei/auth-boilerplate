@@ -1,16 +1,15 @@
-import Server from "./Server";
+import Server from './Server';
 
 class Setup {
-    private server: Server
+  private server: Server;
 
-    constructor () {
-		this.server = new Server()
-	}
+  constructor() {
+    this.server = new Server();
+  }
 
-    boot () {
-        this.server.start()
-    }
-
+  boot() {
+    this.server.start();
+  }
 }
 
-export default Setup
+export default Setup;
