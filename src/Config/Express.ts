@@ -1,5 +1,5 @@
 const expressConfig = {
-  port: process.env.PORT,
+  port: process.env.SERVER_PORT,
 };
 
 export default expressConfig;

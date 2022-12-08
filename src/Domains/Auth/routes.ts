@@ -1,4 +1,4 @@
-import AuthRoutes from './routes/AuthRoutes';
+import AuthRoutes from './Routes/AuthRoutes';
 
 const Auth = [
   AuthRoutes,

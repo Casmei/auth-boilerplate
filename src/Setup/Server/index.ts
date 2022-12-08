@@ -11,7 +11,8 @@ class Server {
     this.initServer();
   }
 
-  private setupRoutes() { domainRoutes.forEach((routes) => this.app.use('/api/v1/', routes)); }
+  // todo: foreach or map
+  private setupRoutes() { domainRoutes.map((routes) => this.app.use('/api/v1/', routes)); }
 
   private setupParser() {
     this.app.use(express.json());
